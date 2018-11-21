@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>
+Tech-nxt.com
+</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+<script type="text/javascript" src="java.js">
+</script>
+</head>
+<body bgcolor=black link=cyan vlink=cyan alink=teal onLoad="detail.php">
+<center>
+
+
+<div name=share_zone class=inn>
+<br><br>
+<div style="font-size:60; color:white; text-decoration:underline;">
+Share Zone !</div>
+<br><br><br>
+<table border=0 width=500>
+<tr>
+<td class=share align=center>Share Your Idea!</td>
+</tr>
+<tr>
+<td class=idea align=center>
+<form name=share method=post action="share.php" enctype="multipart/form-data">
+Title : <input type="text" name=stitle required><br><br>
+Description : <textarea name=sdescribe required></textarea><br><br>
+Images : <input type="file" name=simage required><br><br>
+<input type=submit value="Submit" class=ls_button name=ssubmit>
+</form>
+</td>
+</tr>
+</table>
+<br><br>
+<font size=4 color=orange>**The uploading of your idea depends on our team. If the team founds it appropriate, then it will be uploaded to the 
+website with the details of the user.</font>
+<br><br><br>
+</div>
+<hr color=white>
+<br><br><br>
+<div name=share_zone class=inn>
+<div style="font-size:60; color:white; text-decoration:underline;">
+Account</div>
+<br><br><br>
+<form method=post action="signout.php">
+<input type=submit value="Sign Out" name=signout class=ls_button>
+</form>
+</div>
+
+</center>
+</body>
+</html>
+  

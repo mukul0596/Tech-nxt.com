@@ -1,0 +1,137 @@
+body{margin:0; padding:0;}
+
+
+.parallax{background-image:url(Data/parallax.jpg); min-height:1000px; background-attachment:fixed;
+background-position:center; background-repeat:no-repeat; background-size:cover;}
+
+
+.head{background-image:url(Data/head.jpg);}
+
+
+
+.menu{position:sticky; top:0%; left:0%; z-index:10;}
+
+
+.head_layer1{font-size:70; text-decoration:underline; color:silver; position:absolute; left:40%; top:1%;
+	     z-index:10;}
+
+
+.head_layer2{font-size:70; text-decoration:underline; color:#7D1935; position:absolute; left:40.3%; 
+	     top:1.5%; z-index:5;}
+
+
+.head_layer3{font-size:50; color:#7D1935; position:absolute; left:61%; top:4%;z-index:5;}
+
+
+.head_layer4{position:absolute; left:84%; top:0%; z-index:5;}
+.quick_icon:hover{background-color:white;}
+
+
+.head_layer5{position:absolute; left:88%; top:8%; z-index:5;}
+
+a:link{font-size:26; color:cyan; text-decoration:none;}
+a:link:hover{padding:5; font-size:26; color:teal;}
+
+
+
+.logo{position:absolute; top:1%; left:25%; z-index:5;}
+.logo:hover{padding:5;}
+
+
+
+.dropdown{font-size:22; color:cyan; background-color:grey; position:absolute; left:3%; top:6%; border:0;}
+.dropdown:hover{font-size:24; color:grey; background-color:cyan; padding:0.5; cursor:pointer; opacity:0.7;}
+
+
+.mid{font-size:26; color:#7D1935; background-color:black; text-align:center;}
+.mid:hover{padding:5; font-size:30;  color:black; background-color:#7D1935; cursor:pointer;}
+.active_mid{font-size:26; color:black; background-color:#7D1935;  opacity:0.5; text-align:center; cursor:pointer;}
+.active_mid:hover{padding:5; font-size:30;  color:black; background-color:#7D1935; cursor:pointer; opacity:1;}
+
+
+
+
+.signup_menu{font-size:44; color:black; z-index:0; background-color:#7D1935; opacity:0.5;}
+.signup_menu:hover{font-size:50; color:black; background-color:#7D1935; padding:5; cursor:pointer; 
+		opacity:1;}
+.login_menu{font-size:44; color:#7D1935; background-color:black;}
+.login_menu:hover{font-size:50; color:black; background-color:#7D1935; padding:5; cursor:pointer;}
+.signup_login{font-size:26;}
+.ls_button{background-color:rgba(0,0,0,0); color:#7D1935; font-size:26; border-style:double; border-width:5; border-color:#7D1935;}
+.ls_button:hover{background-color:rgba(0,0,0,0.3); border-color:midnightblue; color:midnightblue; cursor:pointer;}
+
+
+
+.content{background-color:rgba(10,40,50,0.6); color:white; font-size:26;}
+.content2{background-color:rgba(10,40,50,0.6); color:white; font-size:30;}
+
+
+
+.img_tbl:hover{border:solid 5px cyan;}
+
+
+
+h1{font-size:44; color:cyan; text-decoration:underline;}
+
+
+
+h2{font-size:36; color:white;}
+
+
+h3{font-size:20; color:white;}
+
+
+h4{font-size:50; color:cyan; text-decoration:underline;}
+
+
+h5{font-size:40; color:orange;}
+
+
+h6{font-size:300; color:white;}
+
+
+.inn{background:url(Data/bg.jpg); background-size:100%;}
+
+
+.inn_img{border-width:5; border-color:white;}
+
+
+
+.share{font-size:50; color:white; background-color:#7D1935;;}
+.idea{font-size:30; background-color:indianred; color:midnightblue;}
+
+
+.nav{z-index=10; opacity:0.7;}
+.nav:hover{opacity:0.3; cursor:pointer;}
+
+
+
+.note{font-size:40; color:midnightblue; position:absolute; top:180;}
+
+
+.timeline{background-color:indianred;}
+.timeline:hover{opacity:0.5; cursor:pointer;}
+
+
+
+.trial{font-size:30; color:cyan;}
+.trial:hover{color:teal;cursor:pointer;}
+
+
+.foot{position:sticky; top:97%; background-image:url("Data/foot.jpg"); background-size:cover; max-height:470; height:470; overflow:hidden;}
+#social{font-size:75px;}
+.fa{padding: 20px; font-size: 100px; width: 50px; height:50px; text-align: center; text-decoration: none; margin: 5px 2px;}
+.fa-facebook-square{color: white;}
+.fa-facebook-square:hover{color: #999; cursor:pointer;}
+.fa-twitter{color: white;}
+.fa-twitter:hover{color: #999; cursor:pointer;}
+.fa-google-plus{color: white;}
+.fa-google-plus:hover{color: #999; cursor:pointer;}
+.fa-youtube-play{color: white;}
+.fa-youtube-play:hover{color: #999; cursor:pointer;}
+.subbtn{background-color:rgba(0,0,0,0); color:white; font-size:18; border-style:double;  border-width:5; border-color:white;}
+.subbtn:hover{border-color:cyan; color:cyan; cursor:pointer;}
+
+
+.skip{position:absolute; top:90%; left:90%; font-size:36; color:white;}
+.skip:hover{cursor:pointer;color:#999;}

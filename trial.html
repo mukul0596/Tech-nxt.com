@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>
+Tech-nxt.com
+</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="java.js">
+</script>
+</head>
+<body class=parallax onUnLoad=drp() onLoad=drp() link=cyan vlink=cyan alink=teal style="max-width=100%; width=100%; overflow-x:hidden;">
+
+
+
+<table border=0 width=100% height=15%>
+<tr>
+<th class=head>
+<form name=frm><select name=slt class=dropdown onclick=dropdown()>
+<option>Menu</option>
+<option>Home</option>
+<option>Gadgets</option>
+<option>Future Tech</option>
+</select></form>
+<div class=head_layer1>
+Tech~nxt
+</div><br>
+<div class=head_layer2>
+Tech~nxt
+</div>
+<div class=head_layer3>
+.com
+</div>
+<div class=head_layer4>
+<pre><a href=http://www.youtube.com><img src="Data/yt.png" width=40 height=40 class=quick_icon></a> <a href=http://www.facebook.com><img src="Data/fb.png" width=40 height=40 class=quick_icon></a> <a href=http://www.twitter.com><img src="Data/twitter.png" width=40 height=40 class=quick_icon></a> <a href=#home_frame><img src="Data/home.png" width=40 height=40 class=quick_icon></a></pre>
+</div>
+<div class=head_layer5><a href=about.html>About us?</a></div>
+<img src=Data/logo.jpg height=90 width=140 class=logo onclick=home()>
+</th>
+</tr>
+</table>
+
+
+
+<table border=0 width=100% class=menu>
+<tr bgcolor=black align=center>
+<td id=home class=active_mid onclick=home_clk()>Home</td>
+<td id=gadgets class=mid onclick=gadgets_clk()>Gadgets</td>
+<td id=future_tech class=mid onclick=future_tech_clk()>Future Tech</td>
+</tr>
+</table>
+<center>
+
+
+
+<div class=note id=note>
+</div>
+
+
+
+
+
+<div id="home_frame">
+<img src="Data/home.png" width=70 height=70 style="position:relative; top:90; left:-92; z-index=1;">
+<h1>Home</h1>
+</div>
+<iframe src=home.html height=100% width=101% frameborder=0 id="home_iframe" onmouseover="home_clk()">
+</iframe>
+<div class=parallax>
+<h6>Gadgets</h6>
+</div>
+
+
+
+
+<div id="gadgets_frame">
+<img src="Data/gadgets.png" width=65 height=60 style="position:relative; top:85; left:-115;">
+<h1>Gadgets</h1>
+</div>
+<iframe src=gadgets.html height=100% width=101% frameborder=0 frameborder=0 id="gadgets_iframe" onmouseover="gadgets_clk()">
+</iframe>
+<div class=parallax>
+<h6>Future Tech</h6>
+</div>
+
+
+<div id="future_tech_frame">
+<img src="Data/future_tech.png" width=70 height=70 style="position:relative; top:90; left:-150;">
+<h1>Future Tech</h1>
+</div>
+<iframe src=future_tech.html  height=100% width=101% frameborder=0 frameborder=0 id="future_tech_iframe" onmouseover="future_tech_clk()">
+</iframe>
+
+
+
+
+
+<div class=foot>
+<div align=left style="position:relative; left:50;">
+<font size=8px color=white>
+Feedback
+</font>
+<br><br>
+<font size=4 color=white>
+<form id=feedback name=feedback method=post action="feedback.php">
+Name : <input type="text" name="fname" required><br><br>
+Phone no. : <input type="text" name="fphone"><br><br>
+Email : <input type="text" name="femail" required><br><br>
+Comment : <textarea name="fcomment" required></textarea><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=submit name="fsubmit" value=Submit class="subbtn">
+</form>
+</font>
+</div>
+<table border=0 align=center style="position:relative; left:20; top:-350;">
+<tr><td>
+<font size=8px color=white>Programmer :-</font>
+</td></tr>
+<tr><td>
+<font size=4px color=white>Mukul Gupta</font>
+</td></tr>
+<tr><td>
+<font size=4px color=white>Profession : Student at Sunbeam School Mughalsarai</font>
+</td></tr>
+<tr><td>
+<font size=4px color=white>Address : MP 61 Patelnagar Mughalsarai Chandauli(U.P.) India</font>
+</td></tr>
+<tr><td>
+<font size=4px color=white>Phone no. : +91-9415286648</font>
+</td></tr>
+<tr><td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="Data/mukul.jpg" style="border-radius:100%; width:80px;">
+</td></tr>
+<tr><td>
+<font size=8px color=white>Supervisor :-</font>
+</td></tr>
+<tr><td>
+<font size=4px color=white>Prabhat Kumar</font>
+</td></tr>
+<tr><td>
+<font size=4px color=white>Profession : HOD(Computer) at Sunbeam School Mughalsarai</font>
+</td></tr>
+<tr><td>
+<tr><td>
+</td></tr>
+<tr><td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="Data/sir.png" style="border-radius:100%; width:80px;">
+</td></tr>
+</table>
+<div align=right style="position:relative; left:-50; top:-800;">
+<a href="https://www.facebook.com/">
+<i class="fa fa-facebook-square" id="social" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>
+<a href="https://twitter.com/login">
+<i class="fa fa-twitter"  id="social" aria-hidden="true"></i><br><br>
+</a>
+<a href="https://www.youtube.com/results?search_query=future+technology">
+<i class="fa fa-youtube-play" id="social" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>
+<a href="https://plus.google.com/discover">
+<i class="fa fa-google-plus" id="social" aria-hidden="true"></i><br><br>
+</a>
+<div style="position:relative; left:-50;"><a href=about.html>About us?</a></div>
+</div>
+</div>
+
+</center>
+</body>
+</html>

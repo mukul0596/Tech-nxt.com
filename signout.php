@@ -1,0 +1,9 @@
+<?php
+if(isset($_POST['signout']))
+{
+unset($_SESSION['user']);
+session_destroy();
+header("Location:login_signup.html");
+exit();
+}
+?>
